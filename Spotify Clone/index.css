@@ -1,0 +1,572 @@
+*{
+    overflow: hidden;
+}
+
+body{
+    font-family: "Inria Sans", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    
+
+}
+
+.main{
+
+    display: flex;
+    height: 100vh;
+
+}
+
+.sidebar{
+    width: 350px;
+    border-radius: 1rem;
+    margin: 5px;
+    margin-left: 8px;
+    overflow: hidden;
+    height:87%;
+
+}
+
+
+
+.bottom{
+    background-color: black;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 72px;
+
+}
+
+.spotify{
+    display: flex;
+    height: 33%;
+    align-items: center;
+    padding-left: 25px;
+    
+
+}
+
+.nav-option{
+    display: flex;
+    height: 33%;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav{
+    height: 160px;
+    background-color: rgb(128, 128, 128, 0.2);
+
+    
+}
+
+.anchor{
+    color: white;
+
+}
+
+.spotify img{
+    
+    height: 25px;
+    width: 25px;
+}
+
+.nav .nav-option i{
+    padding-right: 15px;
+}
+
+.anchor{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.search2{
+    opacity: 0.5;
+    text-decoration: none;
+    color: white;
+}
+
+/* #img1{
+    opacity: 0.5;
+} */
+
+#connect2{
+    opacity: 0.5;
+}
+#connect2:hover{
+    opacity: 1;
+}
+.lib{
+    margin-top: 10px;
+    height: 100%;
+    background-color: rgb(128, 128, 128 ,0.2);
+}
+
+.lib{
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+
+}
+
+.scroll{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+}
+
+.disclamer{
+    margin-top: 6px;
+    height: 205px;
+
+}
+
+.scroll img{
+    height: 25px;
+    width: 25px;
+}
+
+.library{
+    height: 56px;
+    align-content: center;
+    padding-left: 25px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.library img{
+    margin-right: 15px;
+}
+
+.library #aa{
+    padding-right: 150px;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    align-content: center;
+    opacity: 0.5;
+}
+
+.library #aa:hover{
+    opacity: 1;
+}
+
+.library #aa2{
+    align-content: center;
+    opacity: 0.5;
+    width: 28px;
+    height: 25px;
+}
+
+.library #aa2:hover{
+    opacity: 1;
+}
+
+.scroll a i{
+    color: white;
+}
+
+
+
+
+
+.a1{
+    background-color: rgb(128, 128, 128 ,0.1);
+    margin: 10px;
+    height:152.2px;
+    border-radius:1rem;
+}
+
+.a2{
+    background-color: rgb(128, 128, 128 ,0.1);
+    margin: 10px;
+    height: 152.2px;
+    border-radius:1rem;
+}
+
+.p{
+    padding: 25px;
+    font-size: smaller;
+}
+
+button{
+    background-color: white;
+    color: black;
+    align-content: center;
+    border-radius: 1000px;
+    width: 120px;
+    height: 35px;
+    font-family: 700;
+}
+
+.part11{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    height: 90px;
+
+
+
+}
+
+.div2{
+    padding-right: 20px;
+
+
+}
+
+.div2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255 ,0.5);
+    font-size: smaller;
+
+}
+
+.part1{
+    height: 130px;
+
+}
+
+
+
+.end button{
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border: 0.5px solid white;
+}
+
+/* side bar completed */
+
+
+.right-main{
+    flex: 1;
+    border-radius: 0.5rem;
+    margin: 5px;
+    overflow: hidden;
+    height:87%;
+}
+
+.nav-bar{
+    background-color: rgba(128, 128, 128, 0.2);
+    height: 70px;
+
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-bar img{
+    height: 20px;
+    width: 20px;
+    padding-left: 20px;
+}
+
+.nowmain{
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.2);
+    margin-top: 2px;
+    scrollbar-gutter: stable;
+}
+
+#butto{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    align-content: center;
+    border-radius: 0;
+    width: 120px;
+    height: 35px;
+    font-family: 700;
+    border: 0;
+    opacity: 0.4;
+}
+
+#img2{
+    padding-right: 770px;
+
+}
+
+.nav-bar button{
+    height: 50px;
+    font-size: large;
+    font-weight: 700;
+
+}
+
+.cards{
+    display: flex;
+    height: 280px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.card1 img{
+    height: 120px;
+    width: 120px;
+
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 151.95px;
+    height: 240px;
+    padding: 16px;
+}
+
+.h2{
+    padding-left: 25px;
+}
+
+#enddec{
+    height: 416px;
+}
+
+.enddec{
+    height: 370px;
+    display: flex;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.endera{
+    width: 130px;
+    height: 240px;
+    padding-left: 30px;
+    flex-grow:2
+
+}
+
+.end{
+    /* flex-grow: 2; */
+    height: 240px;
+    padding-left: 20px;
+
+}
+
+.endend i{
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+
+
+hr{
+    width: 90%;
+    opacity: 0.2;
+}
+
+h2{
+    padding-left: 30px;
+}
+
+.endendend{
+    height: 200px;
+    padding: 40px;
+}
+@media(max-width:1125px){
+    #del1{
+        display: none;
+    }
+    #del2{
+        display: none;
+    }
+
+}
+
+@media(max-width:960px){
+    #del21{
+        display: none;
+    }
+    #del22{
+        display: none;
+    }
+
+
+}
+
+@media(max-width:760px){
+    #del23{
+        display: none;
+    }
+    #del24{
+        display: none;
+    }
+}
+@media(max-width:1237px){
+    #img2{
+        padding-right: 300px;
+    }
+
+}
+
+@media(max-width:1000px){
+    #img2{
+        padding-right: 0px;
+    }
+
+}
+
+/* footer */
+
+.bottom{
+    height: 100px;
+
+}
+
+.did{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.did div p{
+    padding-left: 20px;
+
+}
+
+.did button{
+    align-self: center;
+    height: 50px;
+
+}
+
+.badge:hover{
+    width: 125px;
+    height: 40px;
+}
+
+.did button:hover{
+    height: 55px;
+}
+
+#cookies:hover{
+    text-decoration: underline;
+}
+
+#butto:hover{
+    opacity: 1;
+
+}
+
+#butto2:hover{
+    height: 55px;
+    
+}
+
+h2:hover{
+    text-decoration: underline;
+}
+
+.card1:hover{
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.p112:hover{
+    text-decoration: underline;
+}
+
+.endera p:hover{
+    text-decoration: underline;
+}
+
+#endend2{
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-evenly;
+}
+
+.endend a{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.endend a i{
+    padding: 0;
+}
+
+.endend a:hover{
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+.now:hover{
+    overflow: auto;
+}
+
+.nowmain:hover{
+    overflow: auto;
+}
+
+
+.nowmain::-webkit-scrollbar{
+    background-color: #80808000;
+    width: 12px;
+    transition-delay: 2s;
+}
+
+.nowmain::-webkit-scrollbar-thumb{
+    background-color: #8080808f;
+}
+
+.now::-webkit-scrollbar{
+    background-color: #80808000;
+    width: 12px;
+    transition-delay: 2s;
+}
+
+.now::-webkit-scrollbar-thumb{
+    background-color: #8080808f;
+}
+
+.end button:hover{
+    width: 115px;
+    height: 35px;
+
+}
+
+span button{
+    height: 20px;
+    width: 28px;
+}
+
+span .side_float{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    inset: 0px auto auto 0px;
+    transform: translate3d(305px, 216px, 0px);
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.hide{
+    width: 200px;
+    height: 40px;
+    overflow: auto;
+
+}
